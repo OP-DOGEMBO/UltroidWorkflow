@@ -11,9 +11,9 @@ on:
 env:
   api_id: 2453946
   api_hash: 'da9b770f58e14346dc5db989c6d71e28'
-  session: ${{ 1BVtsOJgBu3IY__nGKL9fA621lgIl7brTcbV-cbP_Npbc1vp3IsUAcwd4t7O1JoR2bgL6RQbq_dcAipwBqyoeO2PSgbMNmVBadHM-_t5LrB135TDtb7J4T3Ufz99cEoxBKAxBJEKjS12Mahu9UcgRj7Ay9TY1wfCQAvME_Y55RFdyh9sb8cvlcuJqyNb1vfYqdm2YWzYe4KKWPTYhVhOfN_Vdtd2bLEk4wVBOubr-2_3xd2K5hiCPBkK1AllTeNLuE6lpyWZeuXEb_Z8ehuJGIi8y1nrrpvVip5pSdmgRRuNZgEdkGYUKvu7fKNPtrSZnmd3j-V-t-8IBs5ZhtId3MNkekR_a2So= }}
-  redis_uri: ${{ redis-14583.c264.ap-south-1-1.ec2.cloud.redislabs.com:14583 }}
-  redis_password: ${{ s9oIk7BPFbHxID2Uyym2wOHhgM8E1TQm }}
+  session: ${{ secrets.1BVtsOJgBu3IY__nGKL9fA621lgIl7brTcbV-cbP_Npbc1vp3IsUAcwd4t7O1JoR2bgL6RQbq_dcAipwBqyoeO2PSgbMNmVBadHM-_t5LrB135TDtb7J4T3Ufz99cEoxBKAxBJEKjS12Mahu9UcgRj7Ay9TY1wfCQAvME_Y55RFdyh9sb8cvlcuJqyNb1vfYqdm2YWzYe4KKWPTYhVhOfN_Vdtd2bLEk4wVBOubr-2_3xd2K5hiCPBkK1AllTeNLuE6lpyWZeuXEb_Z8ehuJGIi8y1nrrpvVip5pSdmgRRuNZgEdkGYUKvu7fKNPtrSZnmd3j-V-t-8IBs5ZhtId3MNkekR_a2So= }}
+  redis_uri: ${{ secrets.redis-14583.c264.ap-south-1-1.ec2.cloud.redislabs.com:14583 }}
+  redis_password: ${{ secrets.s9oIk7BPFbHxID2Uyym2wOHhgM8E1TQm }}
   database_url: ${{ secrets.database_url }}
 
 jobs:
